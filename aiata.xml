@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IAT SYSTEM "https://implicit.harvard.edu/implicit/research/library/dtd/ImplicitIAT_001.dtd">
+
+<IAT>
+  <IATName>aiat_superbowla</IATName>
+  <Categories>
+    <Category>
+      <CategoryNumber>0</CategoryNumber>
+      <Stimuli>
+        <CategoryName>Seahawks won the Super Bowl</CategoryName>
+        <CategoryImgURL></CategoryImgURL>
+        <Stimulus type="word">Seahawks won the Super Bowl</Stimulus>
+        <Stimulus type="word">Seahawks beat the Broncos</Stimulus>
+        <Stimulus type="word">I know the Seahawks won</Stimulus>
+      </Stimuli>
+    </Category>
+    <Category color="00ff00">
+      <CategoryNumber>1</CategoryNumber>
+      <Stimuli>
+        <CategoryName>False</CategoryName>
+        <CategoryImgURL></CategoryImgURL>
+        <Stimulus type="word">I am driving a car</Stimulus>
+        <Stimulus type="word">I am dead</Stimulus>
+        <Stimulus type="word">I am a dog</Stimulus>
+        <Stimulus type="word">I live in Canada</Stimulus>
+      </Stimuli>
+    </Category>
+    <Category color="00ff00">
+      <CategoryNumber>2</CategoryNumber>
+      <Stimuli>
+        <CategoryName>True</CategoryName>
+        <CategoryImgURL></CategoryImgURL>
+        <Stimulus type="word">I am using a computer</Stimulus>
+        <Stimulus type="word">I am breathing</Stimulus>
+        <Stimulus type="word">I am a human</Stimulus>
+        <Stimulus type="word">I live in the U.S.</Stimulus>
+      </Stimuli>
+    </Category>
+    <Category>
+      <CategoryNumber>3</CategoryNumber>
+      <Stimuli>
+        <CategoryName>Broncos won the Super Bowl</CategoryName>
+        <CategoryImgURL></CategoryImgURL>
+        <Stimulus type="word">Broncos won the Super Bowl</Stimulus>
+        <Stimulus type="word">Broncos beat the Seahawks</Stimulus>
+        <Stimulus type="word">I know the Broncos won</Stimulus>
+      </Stimuli>
+    </Category>
+  </Categories>
+  <Block>
+    <Instructions><![CDATA[<p><font face="Arial" size="14" color="#FFFFFF">Put your middle or index fingers on the <b>E</b> and <b>I</b> keys of your keyboard. Sentences representing the categories at the top will appear one-by-one in the middle of the screen. When the item belongs to a category on the left, press the <b>E</b> key; when the item belongs to a category on the right, press the <b>I</b> key. Items belong to only one category. If you make an error, an <font color="#FF0000"><b>X</b></font> will appear - fix the error by hitting the other key.</font></p><p></p><p><font face="Arial" size="14" color="#FFFFFF">This is a timed sorting task. <b>GO AS FAST AS YOU CAN</b> while making as few mistakes as possible. Going too slow or making too many errors will result in an uninterpretable score. This task will take about 5 minutes to complete.</font></p><p></p><p align="CENTER"><font face="Arial" size="14" color="#FFFFFF">Press the <b>space bar</b> to begin.</font></p>]]></Instructions>
+    <BlockNumber>0</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>3,0</BlockPairingDefinition>
+  </Block>
+  <Block>
+    <Instructions><![CDATA[<font size="14"><p><b>See above, the categories have changed.</b> The items for sorting have changed as well. The rules, however, are the same.</p><br /><p>When the items belongs to a category on the left, press the <b>E</b> key; when the item belongs to a category on the right, press the <b>I</b> key. Items belong to only one category. An <font color="#FF0000"><b>X</b></font> appears after an error - fix the error by hitting the other key. <b>GO AS FAST AS YOU CAN.</b></p><br /><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
+    <BlockNumber>1</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>1,2</BlockPairingDefinition>
+  </Block>
+  <Block>
+    <Instructions><![CDATA[<font size="14"><p><b>See above, the four categories you saw separately now appear together.</b> Remember, each item belongs to only one group. For example, if the categories <b>flower</b> and <b>good</b> appeared on separate sides above - pictures or words meaning <b>flower</b> would go in the <b>flower</b> category, not the <b>good</b> category.</p><br /><p>The <font color="#33FF33"><b>green</b></font> and <b>white</b> labels and items may help to identify the appropriate category. Use the <b>E</b> and <b>I</b> keys to categorize items into the four groups <b>left</b> and <b>right</b>, and correct errors by hitting the other key.</p><br /><p align="center">Press the <b>space bar</b> to begin</p></font>]]></Instructions>
+    <BlockNumber>2</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>3,0,1,2</BlockPairingDefinition>
+  </Block>
+  <Block>
+    <Instructions><![CDATA[<font size="14"><p><b>Sort the same four categories again.</b> Remember to go as fast as you can while making as few mistakes as possible.</p><br /><p>The <font color="#33FF33"><b>green</b></font> and <b>white</b> labels and items may help to identify the appropriate category. Use the <b>E</b> and <b>I</b> keys to categorize items into the four groups <b>left</b> and <b>right</b>, and correct errors by hitting the other key.</p><br /><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
+    <BlockNumber>3</BlockNumber>
+    <TrialCount>40</TrialCount>
+    <BlockPairingDefinition>3,0,1,2</BlockPairingDefinition>
+  </Block>
+  <Block>
+    <Instructions><![CDATA[<font size="14"><p><b>Notice above, there are only two categories and they have switched positions.</b> The concept that was previously on the left is now on the right, and the concept that was on the right is now on the left. Practice this new configuration.</p><br /><p>Use the <b>E</b> and <b>I</b> keys to categorize items left and right, and correct errors by hitting the other key.</p><br /><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
+    <BlockNumber>4</BlockNumber>
+    <TrialCount>40</TrialCount>
+    <BlockPairingDefinition>0,3</BlockPairingDefinition>
+  </Block>
+  <Block>
+    <Instructions><![CDATA[<font size="14"><p><b>See above, the four categories now appear together in a new configuration.</b> Remember, each item belongs to only one group.</p><br /><p>The <font color="#33FF33"><b>green</b></font> and <b>white</b> labels and items may help to identify the appropriate category. Use the <b>E</b> and <b>I</b> keys to categorize items into the four groups <b>left</b> and <b>right</b>, and correct errors by hitting the other key.</p><br /><p align="center">Press the <b>space bar</b> to begin.</p><font>]]></Instructions>
+    <BlockNumber>5</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>0,3,1,2</BlockPairingDefinition>
+   </Block>
+  <Block>
+    <Instructions><![CDATA[<font size="14"><p><b>Sort the same four categories again.</b> Remember to go as fast as you can while making as few mistakes as possible.</p><br /><p>The <font color="#33FF33"><b>green</b></font> and <b>white</b> labels and items may help to identify the appropriate category. Use the <b>E</b> and <b>I</b> keys to categorize items into the four groups <b>left</b> and <b>right</b>, and correct errors by hitting the other key.</p><br /><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
+    <BlockNumber>6</BlockNumber>
+    <TrialCount>40</TrialCount>
+    <BlockPairingDefinition>0,3,1,2</BlockPairingDefinition>
+  </Block>
+
+  <Results>
+    <Result id="0" cutoff="-.65">Your data suggest you strongly associate truth with 'Seattle Seahawks won the Super Bowl' more than with ''Denver Broncos won the Super Bowl''.</Result>
+    <Result id="1" cutoff="-.35">Your data suggest you moderately associate truth with 'Seattle Seahawks won the Super Bowl' more than with 'Denver Broncos won the Super Bowl'.</Result>
+    <Result id="2" cutoff="-.15">Your data suggest you slightly associate truth with 'Seattle Seahawks won the Super Bowl' more than with 'Denver Broncos won the Super Bowl'.</Result>
+    <Result id="3" cutoff="0">Your data suggest little to no automatic association between truth and 'Denver Broncos won the Super Bowl' compared to 'Seattle Seahawks won the Super Bowl'.</Result>
+    <Result id="4" cutoff=".15">Your data suggest you slightly associate truth with 'Denver Broncos won the Super Bowl' more than with 'Seattle Seahawks won the Super Bowl'.</Result>
+    <Result id="5" cutoff=".35">Your data suggest you moderately associate truth with 'Denver Broncos won the Super Bowl' more than with 'Seattle Seahawks won the Super Bowl'.</Result>
+    <Result id="6" cutoff=".65">Your data suggest you strongly associate truth with 'Denver Broncos won the Super Bowl' more than with 'Seattle Seahawks won the Super Bowl'.</Result>
+  </Results>
+  <ReportBlocks>2,3,5,6</ReportBlocks>
+</IAT>

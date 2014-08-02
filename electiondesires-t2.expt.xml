@@ -1,0 +1,37 @@
+<Study id="calvin.electiondesires.t2" datagroup="std">
+	<Definitions>
+		<Task id="startpage">/common/en-us/html/Instructions.jsp</Task>
+		<Task id="consent">consent_t2.htm</Task>					
+		<Task id="realstart">realstartskip.htm</Task>
+		<Task id="lastpage">lastpage.html</Task> 
+		<Task id="debriefing">debriefing_t2.jsp</Task> 
+		<Task id="serial">serial_t2.html</Task>
+		<Task id="instructions">instructions.html</Task>
+		<Task id="aiata" file="aiata.xml" properties="iparams.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+		<Task id="aiatb" file="aiatb.xml" properties="iparams.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+		<Task id="aiatc" file="aiatc.xml" properties="iparams.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+		<Task id="aiatd" file="aiatd.xml" properties="iparams.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+		<Task id="explicit">explicit_t2.jsp</Task>	
+	</Definitions>
+
+	<Map>
+		<Task id="startpage"/>
+		<Task id="consent"/>	
+		<Task id="realstart"/>
+		<Task id="serial"/>
+
+		<Branch type = "group" id = "implicit">
+			<Task id = "instructions"/>
+			<Branch type = "group" id = "iattype" select = "1">
+				<Task id = "aiata"/>
+				<Task id = "aiatb"/>
+				<Task id = "aiatc"/>
+				<Task id = "aiatd"/>
+			</Branch>
+		</Branch>	
+		
+		<Task id="explicit"/>
+		<Task id="lastpage"/>	
+		<Task id="debriefing"/>				
+ 	</Map>
+</Study>
