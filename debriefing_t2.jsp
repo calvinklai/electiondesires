@@ -56,7 +56,7 @@
               <td class=text>
 	              <p><strong>Thank you for completing the second session of the Super Bowl Study!</strong></p>
 				  
-	  <p>You just completed an Implicit Association Test (IAT) measuring your automatic beliefs about whether Charlie Crist or Rick Scott won the Florida gubernatorial election. If you are completing this test before the Super Bowl (February 2nd), this might serve as a prediction of who you think will win.  If you are completing it after the Super Bowl, we are wondering whether the test will reveal who you believe won, or who you wanted to win.</p>
+	  <p>You just completed an Implicit Association Test (IAT) measuring your automatic beliefs about whether Charlie Crist or Rick Scott won the Florida gubernatorial election. If you are completing this test before the election, this might serve as a prediction of who you think will win.  If you are completing it after the Super Bowl, we are wondering whether the test will reveal who you believe won, or who you wanted to win.</p>
 	  <p>
 The main idea of the task is that people who strongly identify with the Seattle Seahawks will be able to categorize the items more quickly when 'Seahawks won the Super Bowl' and 'TRUE' are categorized with the same key as compared to when 'Seahawks won the Super Bowl' and 'FALSE' are categorized with the same key. Surprisingly, these associations are sometimes very different than our conscious beliefs. We are investigating whether this will show something different than what you believe, hope, or know to be true (or even if you don't care at all about the Super Bowl).
 	  </p>
